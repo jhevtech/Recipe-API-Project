@@ -1,0 +1,17 @@
+#going exclude whatever is in this from docker
+
+#git
+.git
+.gitignore
+
+#docker
+.docker
+
+#Python
+app/__pycache__/
+app/*/__pycache__
+app/*/*/__pycache__
+app/*/*/*/__pycache__
+.env/
+.venv/
+venv/
